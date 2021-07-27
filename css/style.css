@@ -3,6 +3,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+p{
+    font-family: 'Roboto', sans-serif;
+}
 .logo{
     width: 74px;
     height: 24px;
@@ -19,10 +22,10 @@ nav > ul > li {
     margin-right: 40px;
 }
 nav ul li a:hover{
-    border-bottom: 3px solid #8CA6DE;
+    border-bottom: 3px solid #3367D6;
     padding-bottom:16px;
     border-radius: 2px;
-    color: #8CA6DE;
+    color: #3367D6;
 }
 
 nav ul li {
@@ -36,9 +39,12 @@ a{
 }
 
 .domanda{
-    padding: 64px 64px 54px 64px;
+    padding: 64px 84px 54px 84px;
 }
 .risposta{
     margin: 10px 0 10px 0;
-    padding: 0 64px;
+    padding: 0 84px;
+}
+.icone{
+    font-size: 30px;
 }
